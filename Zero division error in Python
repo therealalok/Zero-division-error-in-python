@@ -1,0 +1,11 @@
+def division(a,b):
+    try:
+        div=a/b
+        print(div)
+    except Exception as e:
+        print("A number cannot be divided by zero. It is a error called:",e)
+    finally:
+        print("Bye.")
+
+division(5,0)
+
